@@ -19,7 +19,19 @@
 #
 def triangle(a, b, c):
     # DELETE 'PASS' AND WRITE THIS CODE
-    pass
+    sides = sorted([a, b, c], reverse = True)
+    for side in sides:
+        if side <= 0:
+            raise TriangleError, "Side cant be 0"
+    if sides[0] >= sides[1] + sides[2]:
+        raise TriangleError, "Cant compose triangle out of this sides"
+    sides_set = set(sides)
+    if len(sides_set) == 1:
+        return "equilateral"
+    elif len(sides_set) is 2:
+        return "isosceles"
+    else:
+        return "scalene"
 
 
 # Error class used in part 2.  No need to change this code.
