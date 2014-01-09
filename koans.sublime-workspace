@@ -8,30 +8,32 @@
 	"buffers":
 	[
 		{
-			"file": "python2/contemplate_koans.py",
+			"file": "/home/konrad/documents/curriculum/list.tex",
 			"settings":
 			{
-				"buffer_size": 1289,
+				"buffer_size": 431,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Python 2.7.3 (default, Jan  2 2013, 13:56:14) \n[GCC 4.7.2] on linux2\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"<string>\", line 4, in <module>\nImportError: No module named runner.koan\n>>> Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"<string>\", line 4, in <module>\nImportError: No module named runner.koan\n>>> import sublime\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nImportError: No module named sublime\n>>> from runner.koan import *\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nImportError: No module named runner.koan\n>>> from .runner.koan import *\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nValueError: Attempted relative import in non-package\n>>> Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"<string>\", line 4, in <module>\nImportError: No module named runner.koan\n>>> from .runner.koan import *\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nValueError: Attempted relative import in non-package\n>>> Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"<string>\", line 4, in <module>\nImportError: No module named runner.koan\n>>> Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"<string>\", line 4, in <module>\nImportError: No module named runner.koan\n>>> runner",
+			"file": "/home/konrad/.venv/sub_rosa/README.md",
 			"settings":
 			{
-				"buffer_size": 1522,
-				"line_ending": "Unix",
-				"name": "*REPL* [python]",
-				"scratch": true
+				"buffer_size": 657,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 142.0,
 		"selected_items":
 		[
+			[
+				":q",
+				"Coffee: Quick Run Bar"
+			],
 			[
 				":w",
 				":w - Save"
@@ -39,6 +41,38 @@
 			[
 				"menu",
 				"View: Toggle Menu"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rep py",
+				"SublimeREPL: Python"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"mini",
@@ -49,27 +83,11 @@
 				"View: Toggle Side Bar"
 			],
 			[
-				":W",
-				":w - Save"
-			],
-			[
-				"men",
-				"View: Toggle Menu"
-			],
-			[
 				"re py",
 				"SublimeREPL: Python - virtualenv"
 			],
 			[
-				"rep py",
-				"SublimeREPL: Python"
-			],
-			[
 				"Install",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -82,10 +100,6 @@
 			],
 			[
 				"Remov",
-				"Package Control: Remove Package"
-			],
-			[
-				"remove",
 				"Package Control: Remove Package"
 			],
 			[
@@ -109,14 +123,6 @@
 				"View: Toggle Menu"
 			],
 			[
-				"mark",
-				"Set Syntax: Markdown Extended"
-			],
-			[
-				"markdo",
-				"Set Syntax: Markdown"
-			],
-			[
 				"remov",
 				"Package Control: Remove Package"
 			],
@@ -137,7 +143,7 @@
 				"View: Toggle Status Bar"
 			]
 		],
-		"width": 588.0
+		"width": 633.0
 	},
 	"console":
 	{
@@ -160,6 +166,32 @@
 	},
 	"file_history":
 	[
+		"/home/konrad/.venv/django_new/.gitignore",
+		"/home/konrad/workdir/js/snail.js",
+		"/home/konrad/documents/curriculum/cv_8.tex",
+		"/home/konrad/documents/curriculum/curriculum.tex",
+		"/home/konrad/documents/latex_doc/cv.tex",
+		"/home/konrad/downloads/cv_8.tex",
+		"/home/konrad/ruby-koans/koans/about_asserts.rb",
+		"/home/konrad/ruby-koans/koans/about_nil.rb",
+		"/home/konrad/ruby-koans/koans/neo.rb",
+		"/home/konrad/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/konrad/htdocs/curriculum/app/scripts/main.js",
+		"/home/konrad/htdocs/depro.py",
+		"/home/konrad/koans/about_classes.rb",
+		"/home/konrad/depro.md",
+		"/home/konrad/htdocs/js-koans/KoansRunner.html",
+		"/home/konrad/htdocs/js-koans/koans/AboutInheritance.js",
+		"/home/konrad/htdocs/js-koans/koans/AboutApplyingWhatWeHaveLearnt.js",
+		"/home/konrad/htdocs/js-koans/koans/AboutHigherOrderFunctions.js",
+		"/home/konrad/htdocs/js-koans/lib/jasmine/jskoans-jasmine-html.js",
+		"/home/konrad/htdocs/js-koans/lib/jasmine/jasmine-html.js",
+		"/home/konrad/htdocs/js-koans/koans/AboutObjects.js",
+		"/home/konrad/htdocs/js-koans/koans/AboutMutability.js",
+		"/home/konrad/htdocs/js-koans/koans/AboutFunctions.js",
+		"/home/konrad/htdocs/js-koans/koans/AboutExpects.js",
+		"/home/konrad/htdocs/js-koans/koans/AboutArrays.js",
+		"/home/konrad/python_koans/python2/koans/about_strings.py",
 		"/home/konrad/python_koans/koans.sublime-project",
 		"/home/konrad/python_koans/python2/koans/about_asserts.py",
 		"/home/konrad/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
@@ -240,8 +272,6 @@
 		"/home/konrad/htdocs/nowy_test/include/python2.7/listobject.h",
 		"/home/konrad/htdocs/nowy_test/alembic.ini",
 		"/home/konrad/htdocs/nowy_test/alembic/env.py",
-		"/home/konrad/depro.md",
-		"/home/konrad/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/konrad/htdocs/curriculum/package.json",
 		"/home/konrad/htdocs/curriculum/deprofundis.py",
 		"/home/konrad/htdocs/curriculum/.jshintrc",
@@ -249,7 +279,6 @@
 		"/home/konrad/htdocs/curriculum/app/styles/main.css",
 		"/home/konrad/htdocs/curriculum/app/styles/main.styl",
 		"/home/konrad/htdocs/curriculum/app/scripts/app.coffee",
-		"/home/konrad/htdocs/curriculum/app/scripts/main.js",
 		"/home/konrad/htdocs/curriculum/app/vendor/phpmailer/phpmailer/examples/scripts/shCore.js",
 		"/home/konrad/htdocs/curriculum/app/scripts/scrapyard.js",
 		"/home/konrad/htdocs/curriculum/app/composer.phar",
@@ -264,20 +293,11 @@
 		"/home/konrad/htdocs/curriculum/node_modules/grunt-svgmin/node_modules/svgo/plugins/removeEmptyAttrs.js",
 		"/home/konrad/htdocs/curriculum/node_modules/grunt-contrib-requirejs/docs/requirejs-examples.md",
 		"/home/konrad/htdocs/curriculum/app/robots.txt",
-		"/home/konrad/htdocs/curriculum/app/composer.lock",
-		"/home/konrad/htdocs/curriculum/app/composer.json",
-		"/home/konrad/htdocs/curriculum/node_modules/grunt-contrib-clean/docs/clean-options.md",
-		"/home/konrad/htdocs/curriculum/node_modules/grunt-contrib-jshint/node_modules/.bin/jshint",
-		"/home/konrad/htdocs/curriculum/node_modules/grunt-mocha/node_modules/mocha/lib/reporters/json-stream.js",
-		"/home/konrad/htdocs/curriculum/app/bower_components/jquery/jquery.js",
-		"/home/konrad/htdocs/curriculum/app/bower_components/modernizr/feature-detects/pointerlock-api.js",
-		"/home/konrad/htdocs/deprofundis/blog/manage.py",
-		"/home/konrad/portfolio.md",
-		"/home/konrad/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+		"/home/konrad/htdocs/curriculum/app/composer.lock"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
@@ -291,6 +311,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
+			"depro",
+			"var",
+			"other",
+			"Penny",
 			"h1",
 			"Hello",
 			"hello"
@@ -311,65 +336,28 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "python2/contemplate_koans.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1289,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
+					"file": "/home/konrad/documents/curriculum/list.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1522,
+						"buffer_size": 431,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1522,
-								1522
+								416,
+								416
 							]
 						],
 						"settings":
 						{
-							"auto_complete": true,
-							"auto_indent": false,
 							"codeintel": true,
 							"codeintel_config":
 							{
@@ -473,41 +461,143 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "86d922176b0949149330c354e83eb759",
-							"repl_restart_args":
-							{
-								"cmd":
-								[
-									"python",
-									"-i",
-									"-u"
-								],
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"extend_env":
-								{
-									"PYTHONIOENCODING": "utf-8"
-								},
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
 							"sublime_auto_complete": true,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 424.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/konrad/.venv/sub_rosa/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								345,
+								345
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -518,7 +608,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 50.0
 	},
 	"input":
 	{
@@ -533,12 +623,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -549,7 +633,6 @@
 		"rows":
 		[
 			0.0,
-			0.546150129614,
 			1.0
 		]
 	},
@@ -585,6 +668,38 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"nil",
+				"about_nil.rb"
+			],
+			[
+				"ma",
+				"~/htdocs/curriculum/app/scripts/main.js"
+			],
+			[
+				"app",
+				"koans/AboutApplyingWhatWeHaveLearnt.js"
+			],
+			[
+				"html",
+				"KoansRunner.html"
+			],
+			[
+				"inhe",
+				"koans/AboutInheritance.js"
+			],
+			[
+				"ab",
+				"koans/AboutHigherOrderFunctions.js"
+			],
+			[
+				"about",
+				"koans/AboutMutability.js"
+			],
+			[
+				"abou",
+				"koans/AboutArrays.js"
+			],
 			[
 				"main",
 				"core/main.py"
@@ -662,7 +777,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 327.0,
 	"status_bar_visible": false,
 	"template_settings":
